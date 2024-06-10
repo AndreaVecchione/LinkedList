@@ -1,26 +1,25 @@
 public class Fruit {
-    private String name;
+    private String nome;
 
-    public Fruit (String name) {
-        this.name = name;
+    public Fruit (String nome) {
+        this.nome = nome;
 
 
     }
     public String getName() {
-        return name;
+        return nome;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.nome = name;
     }
 
 
 
     @Override
     public String toString() {
-        return "Student: {" +
-                "name = " + name +
+        return "Frutta: {" +
+                "nome = " + nome +
                 '}';
     }
 }
-
